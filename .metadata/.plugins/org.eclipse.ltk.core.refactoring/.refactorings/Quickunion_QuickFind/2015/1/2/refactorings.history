@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Rename compilation unit &apos;quickunion.QuickFind.java&apos; to &apos;QuickUnion.java&apos;&#x0D;&#x0A;- Original project: &apos;Quickunion_QuickFind&apos;&#x0D;&#x0A;- Original element: &apos;quickunion.QuickFind.java&apos;&#x0D;&#x0A;- Renamed element: &apos;quickunion.QuickUnion.java&apos;" description="Rename compilation unit &apos;QuickFind.java&apos;" flags="2" id="org.eclipse.jdt.ui.rename.compilationunit" input="/src&lt;quickunion{QuickFind.java" name="QuickUnion.java" references="false" stamp="1420868191427" version="1.0"/>
+</session>
