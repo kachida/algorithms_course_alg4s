@@ -1,0 +1,38 @@
+package stacks;
+
+
+
+public class Stack_Generics_Linked_List_Impl {
+
+Node first=null;
+	
+	private class Node
+	{
+		String item;
+		Node next;
+		
+	}
+	public boolean isEmpty()
+	{
+		return first == null;
+		
+	}
+	
+	public String pop()
+	{
+		
+		String item=first.item;
+		first=first.next;
+		return item;
+		
+	}
+	
+	public void push(String item)
+	{
+		Node oldfirst=first;
+		first = new Node();
+		first.item="kanna";
+		first.next=oldfirst;
+	}
+	
+}

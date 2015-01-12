@@ -1,0 +1,5 @@
+package stacks;
+
+public class Stack_Generics_Linked_List_Impl {
+
+}
