@@ -1,0 +1,51 @@
+package stacks;
+
+import java.util.Scanner;
+
+import org.omg.CORBA.portable.ValueInputStream;
+
+public class Stack_Application_Infix {
+	
+	public static void main(String args[])
+	{
+		Stack_Generics_Linked_List_Impl<String> ops=new Stack_Generics_Linked_List_Impl<String>();
+		Stack_Generics_Linked_List_Impl<Double> val=new Stack_Generics_Linked_List_Impl<Double>();
+		
+		Scanner s=new Scanner(System.in);
+		while(s.next()!="end")
+		{
+			String s1=s.next();
+				
+			if(s1.equals("("))
+			{
+				
+			}else if(s1.equals("+"))
+			{
+			ops.push(s1);
+			}else if(s1.equals("*"))
+			{
+				ops.push(s1);
+			}else if(s1.equals(")"))
+			{
+				String op=ops.pop();
+				if(op.equals("+"))
+				{
+					val.push(val.pop()+val.pop());
+				}else if(op.equalsIgnoreCase("*"))
+				{
+					val.push(val.pop()*val.pop());
+				}
+				
+				
+			}
+			else
+			{
+				val.push(Double.parseDouble(s1));
+			}
+			
+		}
+		
+		System.out.println(val.pop());
+	}
+
+}

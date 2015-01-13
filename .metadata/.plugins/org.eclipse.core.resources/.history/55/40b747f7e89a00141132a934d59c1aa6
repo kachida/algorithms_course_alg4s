@@ -1,0 +1,20 @@
+package stacks;
+
+import java.util.Scanner;
+
+public class Stack_Application_Infix {
+	
+	public static void main(String args[])
+	{
+		Stack_Generics_Linked_List_Impl<String> ops=new Stack_Generics_Linked_List_Impl<String>();
+		Stack_Generics_Linked_List_Impl<Double> val=new Stack_Generics_Linked_List_Impl<Double>();
+		
+		Scanner s=new Scanner(System.in);
+		while(s.next()!='\n')
+		{
+				
+			
+		}
+	}
+
+}

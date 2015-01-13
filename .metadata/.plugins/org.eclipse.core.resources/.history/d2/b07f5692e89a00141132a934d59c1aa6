@@ -1,0 +1,10 @@
+package stacks;
+
+public class Stack_Application_Infix {
+	
+	public static void main(String args[])
+	{
+		
+	}
+
+}
