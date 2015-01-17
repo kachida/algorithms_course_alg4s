@@ -1,0 +1,10 @@
+package selectionsort;
+
+import java.util.Scanner;
+
+public class SelectionSort {
+
+	Scanner s=new Scanner(System.in);
+	
+	
+}

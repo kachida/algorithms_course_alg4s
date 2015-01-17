@@ -1,16 +1,5 @@
 INDEX VERSION 1.127+C:\Users\Subburayalu\Documents\GitHub\algorithms_course_alg4s\.metadata\.plugins\org.eclipse.jdt.core
 3086198347.index
-4155206848.index
-305854171.index
-1697886153.index
-1498219845.index
-1995173708.index
 1062723692.index
+2228597084.index
 4124790058.index
-30765161.index
-3133528496.index
-1115467115.index
-3974580528.index
-573543369.index
-3065916431.index
-163172794.index
