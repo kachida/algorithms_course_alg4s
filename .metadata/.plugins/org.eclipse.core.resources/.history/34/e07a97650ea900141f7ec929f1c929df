@@ -1,0 +1,14 @@
+package permutations;
+
+import java.util.Scanner;
+
+public class Permutation_recursion {
+
+	public static void main(String args[])
+	{
+		Scanner s=new Scanner(System.in);
+	String str=s.next();
+	
+		
+	}
+}

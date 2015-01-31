@@ -1,0 +1,25 @@
+package recursion;
+
+import java.util.Scanner;
+
+public class Fibonacci {
+	
+	public static void main(String args[])
+	{
+		Scanner s = new Scanner(System.in);
+		int number = s.nextInt();
+		
+	}
+	
+	public static void fibo(int number)
+	{
+		if(true)
+		{
+			
+		}else
+		{
+			
+		}
+	}
+
+}

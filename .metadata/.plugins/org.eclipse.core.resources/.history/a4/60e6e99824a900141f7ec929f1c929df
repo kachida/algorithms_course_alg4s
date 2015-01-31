@@ -1,0 +1,13 @@
+package linkedlist;
+
+public class Node {
+	
+	String data;
+	Node node;
+	
+	Node a;
+	//a=null;
+	
+	
+
+}
